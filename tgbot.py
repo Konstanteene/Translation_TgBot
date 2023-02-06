@@ -1,6 +1,7 @@
 import telebot
+from config import TG_TOKEN
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot(TG_TOKEN)
 eng_ru = {
     "q": "й",
     "w": "ц",
